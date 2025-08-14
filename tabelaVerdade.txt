@@ -1,0 +1,27 @@
+
+&&/AND
+
+Condição 1	Condição 2	Resultado (Condição 1 && Condição 2)
+true	true	true
+true	false	false
+false	true	false
+false	false	false
+
+
+
+||/or
+
+Condição 1 | Condição 2 | Resultado (Condição 1 || Condição 2) |
+| :--------: | :--------: | :-----------------------------------: |
+|   true   |   true   |                true                 |
+|   true   |  false   |                true                 |
+|  false   |   true   |                true                 |
+|  false   |  false   |                false                |
+
+
+
+
+!
+Condição	Resultado (!Condição)
+true	false
+false	true

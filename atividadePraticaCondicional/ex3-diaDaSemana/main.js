@@ -33,38 +33,38 @@ else if(diaDaSemana === "domingo"){
 
 
 
-//! usando switch case 
-const prompt = require("prompt-sync")();
+// //! usando switch case 
+// const prompt = require("prompt-sync")();
 
-let diaDaSemana = prompt("Qual o dia da semana?: ").toLowerCase();
+// let diaDaSemana = prompt("Qual o dia da semana?: ").toLowerCase();
 
-switch (diaDaSemana) {
-    case "segunda":
-        console.log("Segunda-feira, ninguém merece...");
-        break; // O 'break' é crucial, ele impede que o código continue para o próximo caso.
+// switch (diaDaSemana) {
+//     case "segunda":
+//         console.log("Segunda-feira, ninguém merece...");
+//         break; // O 'break' é crucial, ele impede que o código continue para o próximo caso.
 
-    case "terça":
-        console.log("Boa terça-feira!");
-        break;
+//     case "terça":
+//         console.log("Boa terça-feira!");
+//         break;
 
-    case "quarta":
-        console.log("Boa quarta-feira!");
-        break;
+//     case "quarta":
+//         console.log("Boa quarta-feira!");
+//         break;
 
-    case "quinta":
-        console.log("Boa quinta-feira!");
-        break;
+//     case "quinta":
+//         console.log("Boa quinta-feira!");
+//         break;
 
-    case "sexta":
-        console.log("Finalmente SEXTA!");
-        break;
+//     case "sexta":
+//         console.log("Finalmente SEXTA!");
+//         break;
 
-    case "sabado":
-    case "domingo":
-        console.log("Bom final de semana!");
-        break;
+//     case "sabado":
+//     case "domingo":
+//         console.log("Bom final de semana!");
+//         break;
 
-    default:
-        console.log("Dia inválido.");
-        break;
-}
+//     default:
+//         console.log("Dia inválido.");
+//         break;
+// }
